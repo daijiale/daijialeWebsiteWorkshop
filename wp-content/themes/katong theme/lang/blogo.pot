@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blogo\n"
+"POT-Creation-Date: 2013-09-04 13:45+0200\n"
+"PO-Revision-Date: 2013-09-04 15:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:8 ../header.php:110
+msgid "Page not found"
+msgstr ""
+
+#: ../404.php:9
+msgid ""
+"Sorry, the page you are trying to reach is unavaliable. Please click back in "
+"your browser, or click our logo to return to the homepage."
+msgstr ""
+
+#: ../archive.php:17 ../index.php:17 ../single.php:16
+msgid "Posted by"
+msgstr ""
+
+#: ../archive.php:21 ../index.php:21 ../single.php:20
+msgid "Posted in"
+msgstr ""
+
+#: ../archive.php:25 ../index.php:25 ../single.php:24
+msgid "Discussion"
+msgstr ""
+
+#: ../archive.php:30 ../index.php:30 ../single.php:29
+msgid "Tags"
+msgstr ""
+
+#: ../archive.php:46 ../archive.php:47 ../archive.php:51 ../index.php:46
+#: ../index.php:47 ../index.php:51
+msgid "Read the full post"
+msgstr ""
+
+#: ../archive.php:51 ../header.php:139 ../header.php:145 ../index.php:51
+msgid "Read more"
+msgstr ""
+
+#: ../comments.php:6
+msgid "<span>1</span> Comment on this post"
+msgstr ""
+
+#: ../comments.php:6
+msgid "<span>%1$s</span> Comments on this post"
+msgstr ""
+
+#: ../comments.php:25 ../template_contact_us.php:40
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:26 ../template_contact_us.php:41
+msgid "E-mail"
+msgstr ""
+
+#: ../comments.php:27
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:31 ../comments.php:33 ../template_contact_us.php:43
+msgid "Leave a comment..."
+msgstr ""
+
+#: ../comments.php:31 ../comments.php:33
+msgid "Submit Comment"
+msgstr ""
+
+#: ../comments.php:31 ../comments.php:33
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../footer.php:10 ../footer.php:18 ../footer.php:26 ../footer.php:34
+msgid "No widgets"
+msgstr ""
+
+#: ../footer.php:11 ../footer.php:19 ../footer.php:27 ../footer.php:35
+msgid "There are no active widgets in this area"
+msgstr ""
+
+#: ../footer.php:39
+msgid "Go to the top of the page"
+msgstr ""
+
+#: ../functions.php:244 ../functions.php:259
+msgid "Promote to Slider"
+msgstr ""
+
+#: ../functions.php:307
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../header.php:35
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:71
+msgid "RSS Feed"
+msgstr ""
+
+#: ../header.php:76 ../header.php:97 ../header.php:103 ../header.php:109
+#: ../header.php:115
+msgid "Home"
+msgstr ""
+
+#: ../header.php:98
+msgid "Archive"
+msgstr ""
+
+#: ../header.php:104
+msgid "Search results"
+msgstr ""
+
+#: ../header.php:158
+msgid "View Slide"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "search the site"
+msgstr ""
+
+#: ../template_contact_us.php:15
+msgid "From:"
+msgstr ""
+
+#: ../template_contact_us.php:18
+msgid "Please, fill out all fields correctly and try again."
+msgstr ""
+
+#: ../template_contact_us.php:42
+msgid "Subject"
+msgstr ""
+
+#: ../template_contact_us.php:44
+msgid "Submit"
+msgstr ""

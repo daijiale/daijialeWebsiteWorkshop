@@ -1,0 +1,253 @@
+/*
+
+	Theme Name: Blogo
+	Theme URI: http://themeforest.net/item/blogo-stylish-wp-theme-for-creative-bloggers/5242888
+	Description: (shared on weidea.net) Stylish WP Theme for Creative Bloggers
+	Author: DodoWeb
+	Author URI: http://dodoweb.eu
+	Version: 1.1
+	Text Domain: blogo
+
+	License: GNU General Public License v3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+*/
+
+/********** Reset **********/
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+	margin: 0px;
+	padding: 0px;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+input, select, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	font: inherit;
+}
+strong, h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+em { font-style: italic; }
+img, a img, :link img, :visited img { border: none; }
+ul { list-style: none; }
+:focus { outline: 0; }
+textarea { overflow-y: auto; }
+::-webkit-input-placeholder { color: inherit; }
+
+/********** End of Reset **********/
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+}
+
+#footer:after, #footer .widgettitle:after, .widget:after, .widget .tagcloud:after {
+	content: '';
+	display: block;
+	clear: both;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	font-size: 1px;
+}
+
+/********** Header **********/
+
+#slider .slideContent .content {
+	height: 159px;
+	overflow: hidden;
+}
+
+/********** End of Header **********/
+
+/********** Main Content **********/
+
+.post .meta .noborder { border-bottom: none !important; }
+.post .content .postImage { width: 650px; }
+.post .content img { max-width: 620px; height: auto; }
+.post .content .aligncenter, .post .content .alignnone { float: none !important; margin: 0 !important; }
+.post .content .aligncenter { margin: 0 auto !important; }
+.post .content .wp-caption { padding: 7px; margin-bottom: 20px !important; width: auto; max-width: 620px; border: 0 !important; }
+.post .content .wp-caption img { margin-bottom: 7px; }
+.post .content .wp-caption.aligncenter img { margin: 0 auto 7px; }
+.post .content .wp-caption-text { padding-bottom: 0; }
+.post .content .wp-caption.aligncenter .wp-caption-text { text-align: center; }
+.post .content input[type=password] {
+	margin-left: 7px;
+	padding: 5px 10px;
+	border: 1px solid;
+}
+.post .content input[type=submit] {
+	padding: 4px 10px;
+	border: 1px solid;
+}
+.post .contactForm input[type=submit] { padding: 0; border: 0; }
+
+.postComments .pagination {
+	margin: 40px 0 0;
+}
+.postComments .pagination a, .postComments .pagination .current {
+	display: inline-block;
+}
+.postComments li ul .sub { display: none; }
+
+.postComments h2 { padding-bottom: 20px !important; }
+.postComments li { padding-top: 30px !important; padding-bottom: 20px !important; }
+.postComments li.parent { padding-bottom: 0 !important; }
+.postComments li li { margin-top: 0 !important; padding-top: 30px !important; padding-bottom: 0px !important; }
+.postComments li li:first-child { margin-top: 26px !important; }
+.postComments .comment .content h2 { padding: 0 0 20px; }
+.postComments .comment .content p, .postComments .comment .content blockquote, .postComments .comment .content table, .postComments .comment .content dl, .postComments .comment .content h3, .postComments .comment .content h4, .postComments .comment .content h5, .postComments .comment .content h6 { padding: 0 0 20px; }
+.postComments .comment .content ul { padding: 0 0 20px 20px; list-style: disc; }
+.postComments .comment .content ol { padding: 0 0 20px 21px; }
+.postComments .comment .content ol ol, .postComments .comment .content ul ul, .postComments .comment .content ol ul, .postComments .comment .content ul ol { padding-bottom: 0; }
+.postComments .comment .content li { margin: 0 !important; padding: 0 0 5px !important; }
+
+#respond p { margin-bottom: 10px; }
+#respond h3 #cancel-comment-reply-link, #respond .form-submit { display: none; }
+#respond h3 a { text-shadow: none; }
+#respond .logged_in { float: none; width: 695px; }
+#respond .logged_in textarea { width: 665px; }
+#respond .logged_in #cancel-comment-reply-link { left: 360px; bottom: -39px; }
+#respond .logged_in input[type=submit] { bottom: -39px; }
+
+.error { margin-top: -5px; color: #e86452; font-weight: bold; }
+
+/********** End of Main Content **********/
+
+/********** Sidebar **********/
+
+#sidebar .widget { z-index: 1 !important; }
+#sidebar .widget #sidebar .widgettitle, #sidebar .widget caption { position: relative; }
+#sidebar .widget .textwidget { padding: 0 20px; }
+#sidebar .widget .textwidget p { padding: 15px 0 0; }
+#sidebar .widget .textwidget p:first-child { padding: 0; }
+#sidebar .widget .textwidget p iframe { display: block; }
+#sidebar .widget .textwidget select { margin: 0; }
+
+#sidebar .widget #sidebar .widgettitle { margin-bottom: 15px; }
+#sidebar .widget img { max-width: 235px; height: auto; }
+#sidebar .widget ul li { padding: 4px 20px; font-weight: bold; }
+#sidebar .widget p { padding: 0 20px; }
+#sidebar .widget select {
+	margin: 0 20px;
+	padding: 4px;
+	max-width: 235px;
+	background: inherit !important;
+	color: inherit;
+	border: 1px solid !important;
+}
+#sidebar .widget table {
+	padding: 0 20px;
+	width: 275px;
+	text-align: center;
+}
+#sidebar .widget caption {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#sidebar .widget.light .tagcloud {
+	margin-top: -10px;
+	padding: 0 20px;
+}
+#sidebar .widget.dark .tagcloud {
+	padding: 0 20px 20px;
+}
+#sidebar .widget .tagcloud a {
+	float: left;
+	margin: 10px 10px -3px 0 !important;
+	padding-right: 20px !important;
+	background-position: top right !important;
+	font-size: 11px !important;
+}
+#sidebar .widget .tagcloud a:hover { background-position: bottom right !important; }
+
+#sidebar .widget li:first-child { padding-top: 0; }
+#sidebar .widget_links li:first-child {border-top: 0; }
+
+#sidebar .widget.light { padding-bottom: 20px; }
+#sidebar .widget.last_dark { padding-bottom: 10px; }
+
+#sidebar .separator3 { position: relative; z-index: 2; }
+
+/********** End of Sidebar **********/
+
+/********** Footer **********/
+
+#footer ul .widget { padding-top: 30px; }
+#footer ul .widget:first-child { padding-top: 0; }
+#footer ul img { max-width: 100%; height: auto; }
+#footer .widget .textwidget p { padding: 15px 0 0; }
+#footer .widget .textwidget p:first-child { padding: 0; }
+#footer .widget .textwidget p iframe { display: block; }
+
+#footer .widgettitle { margin-bottom: 15px; }
+#footer .widgettitle .rsswidget { float: left; margin-right: 10px; }
+#footer .widget ul li { padding: 2px 0; }
+#footer .widget select {
+	padding: 2px;
+	max-width: 99%;
+	background: inherit !important;
+	color: inherit;
+	border: 1px solid !important;
+}
+#footer .widget input[type=text], #footer .widget input[type=email] {
+	padding: 0 4%;
+	width: 92%;
+	height: 36px;
+	line-height: 36px;
+	background: inherit !important;
+	color: inherit;
+	border: 1px solid !important;
+}
+#footer .widget table {
+	width: 100%;
+	text-align: center;
+}
+#footer .widget caption {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#footer .widget .tagcloud {
+	margin-top: -10px;
+}
+#footer .widget.dark .tagcloud {
+	padding-bottom: 20px;
+}
+#footer .widget .tagcloud a {
+	float: left;
+	margin: 10px 10px -3px 0 !important;
+	background: none;
+	border: 1px solid;
+}
+#footer .widget .tagcloud a:hover { text-decoration: underline; }
+#footer li li a { display: inline !important; }
+
+#credits .right { width: auto !important; }
+#credits .dodoweb { margin-left: 5px; }
+
+/********** End of Footer **********/
+
+#languages {
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	list-style: none;
+}
+#languages ul { list-style: none; }
+#languages #lang_sel a.lang_sel_sel { border-color: #fff; }
